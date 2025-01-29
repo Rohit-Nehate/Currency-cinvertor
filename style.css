@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'MyCustomFont'; /* Name your font */
+  src: url('font.ttf') format('truetype'); /* Path to the font file */
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+  font-weight: bolder;
+  background: #D4FF6A;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  
+}
+
+
+.container{
+	background: #F4F2F3;
+	padding: 30px 20px 40px 20px;
+	border-radius:10px;
+	color:#151515;
+	min-width: 70vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap:15px;
+	
+  box-shadow: 9px 10px 60px #779C07, -10px -9px 60px #506A00;
+}
+
+.filler{width: 100%;
+
+}
+
+.filler input{
+	
+	border: 1px solid #151515;
+	outline: none;
+	background: transparent;
+	border-radius: 5px;
+	height: 40px;
+	padding: 5px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.filler input:focus{
+	border: 1.8px solid #000000;
+}
+
+
+
+
+.select img{
+	width: 2.5rem;
+	
+}
+
+.country,.select{
+	
+	display: flex;
+	gap:10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+button{
+	width:100%;
+	border:1px solid #000000;
+	height: 40px;
+	background: #CC2936;
+	outline: none;
+	border-radius:5px;
+	
+	
+}
+
+button:active {
+	background: #FF106A;
+}
